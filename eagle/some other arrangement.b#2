@@ -446,7 +446,7 @@ design rules under a new name.</description>
 <element name="SR-08" library="74xx-eu" package="DIL16" value="" x="77.47" y="81.28" rot="R180"/>
 <element name="SR-09" library="74xx-eu" package="DIL16" value="" x="66.04" y="60.96" rot="R270"/>
 <element name="SR-10" library="74xx-eu" package="DIL16" value="" x="66.04" y="38.1" rot="R270"/>
-<element name="MC" library="atmel" package="DIL28-3" value="" x="31.75" y="55.88" rot="R90"/>
+<element name="MC" library="atmel" package="DIL28-3" value="" x="30.48" y="55.88" rot="R90"/>
 <element name="CON-01-10" library="con-molex" package="22-23-2101" value="" x="50.8" y="93.98"/>
 <element name="CON-11-20" library="con-molex" package="22-23-2101" value="" x="5.08" y="68.58" rot="R90"/>
 <element name="CON-21-30" library="con-molex" package="22-23-2101" value="" x="5.08" y="30.48" rot="R90"/>
@@ -457,7 +457,7 @@ design rules under a new name.</description>
 <element name="E$19" library="transistor-npn" package="TO92-BCE" value="" x="76.2" y="91.44"/>
 <element name="E$20" library="transistor-npn" package="TO92-BCE" value="" x="87.63" y="91.44"/>
 <element name="E$21" library="transistor-npn" package="TO92-BCE" value="" x="95.25" y="91.44"/>
-<element name="E$1" library="con-molex" package="22-23-2121" value="" x="57.15" y="58.42" rot="R270"/>
+<element name="E$1" library="con-molex" package="22-23-2121" value="" x="55.88" y="58.42" rot="R270"/>
 </elements>
 <signals>
 <signal name="S$2">
@@ -676,27 +676,33 @@ design rules under a new name.</description>
 </signal>
 <signal name="S$66">
 <contactref element="SR-09" pad="1"/>
-<wire x1="62.23" y1="69.85" x2="58.42" y2="69.85" width="0.6096" layer="16"/>
+<wire x1="62.23" y1="69.85" x2="55.88" y2="69.85" width="0.6096" layer="16"/>
+<wire x1="55.88" y1="69.85" x2="58.42" y2="69.85" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$67">
 <contactref element="SR-09" pad="2"/>
-<wire x1="62.23" y1="67.31" x2="58.42" y2="67.31" width="0.6096" layer="16"/>
+<wire x1="62.23" y1="67.31" x2="55.88" y2="67.31" width="0.6096" layer="16"/>
+<wire x1="55.88" y1="67.31" x2="58.42" y2="67.31" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$68">
 <contactref element="SR-09" pad="3"/>
-<wire x1="62.23" y1="64.77" x2="58.42" y2="64.77" width="0.6096" layer="16"/>
+<wire x1="62.23" y1="64.77" x2="55.88" y2="64.77" width="0.6096" layer="16"/>
+<wire x1="55.88" y1="64.77" x2="58.42" y2="64.77" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$69">
 <contactref element="SR-09" pad="4"/>
-<wire x1="62.23" y1="62.23" x2="58.42" y2="62.23" width="0.6096" layer="16"/>
+<wire x1="62.23" y1="62.23" x2="55.88" y2="62.23" width="0.6096" layer="16"/>
+<wire x1="55.88" y1="62.23" x2="58.42" y2="62.23" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$70">
 <contactref element="SR-09" pad="5"/>
-<wire x1="62.23" y1="59.69" x2="58.42" y2="59.69" width="0.6096" layer="16"/>
+<wire x1="62.23" y1="59.69" x2="55.88" y2="59.69" width="0.6096" layer="16"/>
+<wire x1="55.88" y1="59.69" x2="58.42" y2="59.69" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$71">
 <contactref element="SR-09" pad="6"/>
-<wire x1="62.23" y1="57.15" x2="58.42" y2="57.15" width="0.6096" layer="16"/>
+<wire x1="62.23" y1="57.15" x2="55.88" y2="57.15" width="0.6096" layer="16"/>
+<wire x1="55.88" y1="57.15" x2="58.42" y2="57.15" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$72">
 </signal>
@@ -875,7 +881,8 @@ design rules under a new name.</description>
 <wire x1="67.31" y1="67.31" x2="66.04" y2="68.58" width="0.6096" layer="16"/>
 <wire x1="66.04" y1="68.58" x2="66.04" y2="71.12" width="0.6096" layer="16"/>
 <wire x1="66.04" y1="71.12" x2="64.77" y2="72.39" width="0.6096" layer="16"/>
-<wire x1="64.77" y1="72.39" x2="58.42" y2="72.39" width="0.6096" layer="16"/>
+<wire x1="64.77" y1="72.39" x2="55.88" y2="72.39" width="0.6096" layer="16"/>
+<wire x1="55.88" y1="72.39" x2="58.42" y2="72.39" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$65">
 <contactref element="SR-01" pad="9"/>
@@ -1165,7 +1172,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="S$103">
 <contactref element="SR-09" pad="7"/>
-<wire x1="62.23" y1="54.61" x2="58.42" y2="54.61" width="0.6096" layer="16"/>
+<wire x1="62.23" y1="54.61" x2="55.88" y2="54.61" width="0.6096" layer="16"/>
+<wire x1="55.88" y1="54.61" x2="58.42" y2="54.61" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$82">
 </signal>
@@ -1183,6 +1191,8 @@ design rules under a new name.</description>
 <contactref element="SR-10" pad="1"/>
 <wire x1="62.23" y1="46.99" x2="60.96" y2="46.99" width="0.6096" layer="16"/>
 <wire x1="60.96" y1="46.99" x2="58.42" y2="49.53" width="0.6096" layer="16"/>
+<contactref element="E$1" pad="10"/>
+<wire x1="55.88" y1="49.53" x2="58.42" y2="49.53" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$100">
 <contactref element="SR-10" pad="15"/>
@@ -1192,6 +1202,8 @@ design rules under a new name.</description>
 <wire x1="64.77" y1="48.26" x2="63.5" y2="49.53" width="0.6096" layer="16"/>
 <wire x1="63.5" y1="49.53" x2="60.96" y2="49.53" width="0.6096" layer="16"/>
 <wire x1="60.96" y1="49.53" x2="58.42" y2="52.07" width="0.6096" layer="16"/>
+<contactref element="E$1" pad="9"/>
+<wire x1="55.88" y1="52.07" x2="58.42" y2="52.07" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$93">
 <contactref element="SR-08" pad="13"/>
@@ -1377,11 +1389,15 @@ design rules under a new name.</description>
 <contactref element="SR-10" pad="2"/>
 <wire x1="62.23" y1="44.45" x2="60.96" y2="44.45" width="0.6096" layer="16"/>
 <wire x1="60.96" y1="44.45" x2="58.42" y2="46.99" width="0.6096" layer="16"/>
+<contactref element="E$1" pad="11"/>
+<wire x1="55.88" y1="46.99" x2="58.42" y2="46.99" width="0.6096" layer="16"/>
 </signal>
 <signal name="S$90">
 <contactref element="SR-10" pad="3"/>
 <wire x1="62.23" y1="41.91" x2="60.96" y2="41.91" width="0.6096" layer="16"/>
 <wire x1="60.96" y1="41.91" x2="58.42" y2="44.45" width="0.6096" layer="16"/>
+<contactref element="E$1" pad="12"/>
+<wire x1="55.88" y1="44.45" x2="58.42" y2="44.45" width="0.6096" layer="16"/>
 </signal>
 </signals>
 </board>
