@@ -1,0 +1,10 @@
+CHECKPOINT 1
+
+- am verificat toate conexiunile GND & VCC intre Shift registers
+- am verificat toti pinii de control ai shift registers cu pinii de led si tranzistorii
+- am verificat magistralele de date intre shift registers.
+
+CHECKPOINT 2
+
+- de verificat conexiunea dintre tranzistori si shift register si VCC/GND precum si corecta functionare a acestora
+- de conectat la MC
