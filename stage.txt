@@ -6,5 +6,5 @@ CHECKPOINT 1
 
 CHECKPOINT 2
 
-- de verificat conexiunea dintre tranzistori si shift register si VCC/GND precum si corecta functionare a acestora
+- am verificat conexiunea dintre tranzistori si shift register si VCC/GND precum si corecta functionare a acestora
 - de conectat la MC
