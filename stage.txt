@@ -8,3 +8,10 @@ CHECKPOINT 2
 
 - am verificat conexiunea dintre tranzistori si shift register si VCC/GND precum si corecta functionare a acestora
 - de conectat la MC
+
+CHECKPOINT 3
+
+!!! f important !!!
+- de insemnat toti pinii de pe top layer care trebuiesc Soldered de picioarele componentelor
+- unde nu se poate ce am zis mai sus sa se faca trasee de trecere (de ex la soclurile DIP unde nu ai cum sa ajungi sub fustita de textolit)
+- DECI: nu trebuie sa am rosu pe pinii componentelor si astfel elimin punctul 1
